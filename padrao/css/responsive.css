@@ -1,0 +1,609 @@
+@media(min-width: 320px) and (max-width: 767px){
+    .menuPrincipal {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    }
+    .custom-logo-link img{
+        width: 100px;
+        height: auto;
+    }
+    .navbar-collapse .collapse .show {
+        margin-top: 20px;
+    }
+    .formFooter {
+        margin-bottom: 30px;
+        /*margin-top: 30px;*/
+    }
+    .linksFooter {
+        display: none;
+    }
+    .newsletter-modal [type=text], .newsletter-modal [type=email], .newsletter-modal [type=tel], .newsletter-modal [type=number] {
+    height: 30px;
+    margin-bottom: 7px;
+    }   
+    footer {
+    padding: 0px 0px 30px;
+    }
+    .enderecoFooter p {
+        padding-right: 0px;
+        text-align: center;
+    }
+    .socialIcons .row {
+        display: flex;
+        justify-content: center;
+
+    }
+    .socialIcons .row a:first-child {
+        margin-left: 0px;
+    }
+    .formHome {
+    height: 40px;
+    font-size: 10px;
+    padding-left: 15px;
+    }
+    .titlePage h2 {
+    font-size: 28px;
+    }
+    .sectionBuscarLojas, .bannerPage {
+    height: 150px;
+    margin-bottom: 40px;
+    }
+    .bannerPage {
+        padding-bottom: 10px;
+    }
+    .
+    #bannerContato {
+    background-size: 920px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    }
+    #bannerVenancio {
+    background-size: 980px;
+    background-position-x: right;
+    }
+    .easy-autocomplete {
+        width: 100%!important;
+    }
+    #pesquisaHome form {
+    width: 100%;
+    }
+    /*.nav-item .d-flex img {
+    display: none!important;
+    }*/
+    .nav-item h3 {
+        font-size: 18px;
+    }
+    .nav-item h5 {
+        font-size: 16px;
+    }
+    .bannerVmais {
+        height: 280px;
+    }
+    .bannerVmais img {
+        margin-bottom: 60px;
+    }
+    .contentVmaisHome p {
+        margin-bottom: -15px;
+    }
+    #bannerHome, .tab-content, #blogHome, #calendarioHome {
+    margin-bottom: 40px;
+    }
+    .divBotaoSalas a {
+        font-size: 14px;
+    }
+    .divFormFooter:before {
+    content: "";
+    background-image: url(../img/lupablue.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 29px;
+    bottom: 39px;
+    }
+    .formPesquisaPages {
+        display: none;
+    }
+    .itemloopLojas {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    }
+    .catLojas {
+    padding-right: 1rem;
+    }
+    .tab-pane.show {
+    margin: 0px;
+    }
+    #pisosHome ul {
+        display: flex;
+    justify-content: space-around;
+    }
+    .easy-autocomplete-container ul {
+        top: 50px;
+    }
+    .botaoVmaisHome a {
+    color: #fff;
+    background-image: linear-gradient(252deg, #077f8d, #43ab46);
+    border-radius: 45px;
+    padding: 15px 20px;
+    font-size: 12px;
+    }
+    .blogVenancio li {
+    list-style: none;
+    text-align: center;
+    }
+    .bloco-blog h4 {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    }
+    .bloco-blog .thumb img {
+    max-width: 100%;
+    height: auto;
+    }
+    .bloco-blog hr {
+        display: none;
+    }
+    #pesquisaHome form:before {
+        right: 15px;
+        top: 10px;
+    }
+    .galeriaEventos {
+        padding-top: 15px;
+    }
+    .sectionOVenancio li, .sectionSalas li {
+        margin-left: 1rem;
+    }
+    .formHome::placeholder {
+        font-size: 21px;
+    }
+    .mec-single-modern .col-md-4 .mec-frontbox {
+        margin-top: 20px !important;
+        margin-bottom: 0px !important;
+    }
+    .botaoVoltarTodos {margin: 30px auto;}
+    #blogHome {
+    margin-top: 20px;
+    }
+    .pisos-desktop {display: none}
+    .pisos-mobile {display: block}
+    .alfab a {
+    color: #000;
+    font-size: 16px;
+    padding-right: 7px;
+    padding: 10px!important;
+    }
+    .alfab a:after {
+    content: '·';
+    position: relative;
+    left: 10px;
+    }
+    #horario-func{
+        display: none;
+    }
+    #horario-func-mobile{
+        display: block;
+    }
+    #esp-familia{
+        display: none;
+    }
+    #esp-familia-mobile a{
+        margin-bottom: 170px;
+    }
+
+
+}
+
+@media(min-width: 335px) and (max-width: 375px){
+    .botaoVmaisHomeRegulamento a{
+        padding: 15px 13px;
+    }
+}
+@media(max-width: 375px){
+    .vmais-passo-a-passo li {
+    padding: 23px 26px 18px 70px!important;
+    }
+}
+
+@media(min-width: 320px) and (max-width: 992px){
+    #horario-func{
+        display: none;
+    }
+    #horario-func-mobile{
+        display: block;
+    }
+    #esp-familia{
+        display: none;
+    }
+    #esp-familia-mobile{
+        display: block;
+    }
+    
+    .estacionamento{
+        display: block;
+    }
+    #estacionamento h4{
+        padding-left: 14px;
+        margin-top: 25px;
+    }
+    .estacionamento-texto{
+        padding-top: 25px;
+
+    }
+    .video-texto-vmais{
+        display: block;
+    }
+    img.passo1-img{
+        display: none!important;
+    }
+    ..passo-1::before{
+    content: url('../img/bolinha-vmais-1-media.png');
+    }
+    .vmais-passo-a-passo li{
+        padding: 23px 60px 18px 156px;
+    }
+}
+
+/*=============================================================*/
+/*=============        320PX ATÉ 370PX     ====================*/
+/*=============================================================*/
+@media(min-width: 320px) and (max-width: 370px){
+    .nav-link {
+    padding: 10px 8px!important;
+    }
+    .tab-content {
+    padding: 0rem 0rem 1rem;
+    }
+    .botaoVerCalendario a {
+    padding: 10px 25px;
+    }
+    .bannerVmais {
+        height: 17rem;
+    }
+
+}
+
+/*=============================================================*/
+/*===============   FIM - 320PX ATÉ 370PX  ====================*/
+/*=============================================================*/
+@media(min-width: 371px) and (max-width: 410px){
+    .bannerVmais {
+        height: 19rem;
+    }
+
+}
+@media(min-width: 411px) and (max-width: 430px){
+    .bannerVmais {
+        height: 22rem;
+    }
+
+}
+/*=============================================================*/
+/*=============        320PX ATÉ 576PX     ====================*/
+/*=============================================================*/
+@media(min-width: 320px) and (max-width: 576px){
+    .nav-link {
+    padding: 10px 9px;
+    }
+    .nav-item .show:after{
+        display: none!important;
+    }
+    .contatoSalas h4 {
+    font-size: 22px;
+    }
+    .infosLoja .categoria:before {
+    bottom: 20px;
+    }
+    .socialIcons {
+        margin-bottom: 30px;
+    }
+    .logoFooter{
+        justify-content: center;
+        margin-top: 40px;
+        margin-bottom: 29px;
+    }
+    .vmais-passo-a-passo{
+        display: block;
+    }
+    .passo-1::before{
+        content: url('../img/bolinha-vmais-1-pequena.png');
+        position: absolute;
+        left: 0px;
+        bottom: auto;
+    }
+    .passo-2::before{
+        content: url('../img/bolinha-vmais-02-pequena.png');
+        position: absolute;
+        left: 0px;
+        bottom: auto;
+    }
+    .passo-3::before{
+        content: url('../img/bolinha-vmais-03-pequena.png');  
+        position: absolute;
+        left: 0px;
+        bottom: auto;
+    }
+    .passo-4::before{
+        content: url('../img/bolinha-vmais-04-pequena.png');
+        position: absolute;
+        left: 0px;
+        bottom: auto;
+    }
+    .vmais-passo-a-passo li {
+        padding: 23px 26px 18px 62px;
+        border-radius: 25px;
+        font-size: 12px;
+        margin-bottom: 66px;
+    }
+    p.eticaEconduta{
+        padding: 12px 10px;
+    }
+    footer .listTwo{
+        display: none;
+    }
+
+}
+
+/*=============================================================*/
+/*===============   FIM - 320PX ATÉ 576PX  ====================*/
+/*=============================================================*/
+
+
+
+/*============================================================================================================================================================================================*/
+
+
+
+/*=============================================================*/
+/*=============        577PX ATÉ 768PX     ====================*/
+/*=============================================================*/
+@media(min-width: 577px) and (max-width: 767px){
+    .nav-link {
+    display: block;
+    padding: .5rem .6rem;
+    }
+    .infosLoja .categoria:before {
+    bottom: 20px;
+    }
+}
+
+/*=============================================================*/
+/*===============   FIM - 577PX ATÉ 768PX  ====================*/
+/*=============================================================*/
+
+
+
+/*============================================================================================================================================================================================*/
+
+
+
+/*=============================================================*/
+/*=============        768PX ATÉ 992PX     ====================*/
+/*=============================================================*/
+@media(min-width: 768px) and (max-width: 992px){
+    .nav-item .d-flex img {
+    max-width: 87px;
+    }
+    .tab-content {
+    padding: 0rem 0rem 1rem;
+    }
+    .navTerreo .show:after {
+    left: 45px;
+    }
+    .nav01 .show:after {
+    left: 25px;
+    }
+    .nav02 .show:after {
+    left: 25px;
+    }
+    .nav03 .show:after {
+    left: 25px;
+    }
+    .nav04 .show:after {
+    left: 25px;
+    }   
+    .contatoSalas h4 {
+    padding: 0px 40px;
+    }
+    .botoesVmais a {
+    padding: 10px 40px;
+    }
+    .catLojas {
+    padding-right: 1rem;
+    }
+    .itemloopLojas img {
+    width: 172px;
+    height: 120px;
+    }
+    .tab-pane.show {
+    margin-top: 15px;
+    margin-bottom: 90px;
+    }
+
+    #horario-func{
+        display: none;
+    }
+    #horario-func-mobile{
+        display: block;
+    }
+    #esp-familia-mobile a{
+        margin-bottom: 190px;
+    }
+}
+/*=============================================================*/
+/*===============   FIM - 768PX ATÉ 992PX  ====================*/
+/*=============================================================*/
+
+
+
+/*============================================================================================================================================================================================*/
+
+
+/*============================================================================================================================================================================================*/
+/*=============================================================*/
+/*=============        993PX ATÉ 1200PX     ===================*/
+/*=============================================================*/
+@media(min-width: 993px) and (max-width: 1200px){
+    #menu-principal .menu-item {
+    list-style: none;
+    padding: 0px 6px;
+    }
+    .passo-1::before{
+        bottom: 145px;
+    }
+    .celular-1{
+        bottom: 52px!important;
+    }
+}
+
+/*=============================================================*/
+/*===============   FIM - 993PX ATÉ 1200PX  ===================*/
+/*=============================================================*/
+
+@media(max-width: 992px) {
+    .botoesVmais a {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding: 20px 40px;
+    }
+    .hide-mobile {display: none;}
+    .show-mobile {display: block;}
+    .botaoVerCalendario {justify-content: center; text-align: center}
+    .formPesquisaPages form:before {
+    bottom: 20px!important;
+    }
+    .slideHomeDesktop {
+        display: none;
+    }
+    .newsletter {padding: 10px;}
+    .newsletter h6 {font-size: 21px;}
+    .newsletter button {margin: 0 auto;}
+    .close {right: 15px; top: 15px;}
+    .newsletter-modal h6 {font-size: 21px; padding-bottom: 12px}
+    .newsletter-dentro-modal {padding: 30px 0 20px;}
+    .newsletter-dentro-modal p {margin-bottom: 0}
+    .newsletter-modal span.wpcf7-form-control {display: inline;}
+
+    #menu-principal {text-align: center;}
+    #menu-principal .menu-item {padding: 10px 15px 0;}
+    .navbar li a {font-size: 18px;}
+    .navbar li:first-child a {padding-top: 10px}
+    .custom-logo-link {padding-left: 40px;}
+
+    .sub-menu {position: relative !important; margin-left: 0 !important; padding-inline-start: 0;}
+    .sub-menu a {padding-top: 0 !important;}
+
+    .titulo-blog p {text-align: center;}
+    .botaoMaisBlog {justify-content: center;}
+
+    .pl-7 {padding-left: 15px;}
+}
+/*============================================================================================================================================================================================*/
+/*============================================================================================================================================================================================*/
+/*=============================================================*/
+/*=============        993PX EM DIANTE    ===================*/
+/*=============================================================*/
+@media(min-width: 993px) {
+    .titlePage {
+        width: 50%;
+    }
+    .linksPost {
+        margin-left: -10px;
+    }
+    .slideHomeMobile {
+        display: none!important;
+    }
+    .linksBlog h3 {
+        text-align: right;
+    }
+    #blogHome {
+        margin-top: 6rem;
+    }
+
+}
+/*=============================================================*/
+/*===============   FIM - 993PX EM DIANTE ===================*/
+/*=============================================================*/
+
+/*=============================================================*/
+/*=============        1200PX EM DIANTE     ===================*/
+/*=============================================================*/
+
+@media(max-width: 767px) {
+    .enderecoFooter .col-12 {
+        text-align: center;
+    }
+}
+
+@media(min-width: 1201px) {
+    #calendarioHome .col-12 {padding: 0;}
+}
+
+/*=============================================================*/
+/*===============   FIM - 1200PX EM DIANTE  ===================*/
+/*=============================================================*/
+
+/*=============================================================*/
+/*=============        1920PX EM DIANTE     ===================*/
+/*=============================================================*/
+
+@media(min-width: 1920px) {
+    #bannerHome{
+
+        width: 100%;
+    }
+    #bannerVenancio{
+        width: 100%;
+    }
+    #bannerLojas{
+
+        width: 100%;
+    }
+    #bannerTorres{
+
+        width: 100%;
+    }
+    #bannerContato{
+
+        width: 100%;
+    }
+    #bannerServicos{
+
+        width: 100%;
+    }
+    .bannerVmais{
+        width: 100%;
+    }
+    #bannerSalas {
+
+        width: 100%;
+    }
+    #bannerEventos {
+
+        width: 100%;
+    }
+    #bannerVmais {
+
+        width: 100%;
+    }
+    #bannerVmais {
+
+        width: 100%;
+    }
+    .bannerPage{
+        width: 100%;
+    }
+    
+
+}
+
+/*=============================================================*/
+/*===============   FIM - 1920PX EM DIANTE  ===================*/
+/*=============================================================*/
+
